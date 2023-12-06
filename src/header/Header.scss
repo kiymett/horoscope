@@ -1,0 +1,22 @@
+.header{
+  margin: 10rem 1rem 1rem;
+  padding: .5rem;
+  text-align: center;
+
+  .text-shadow {
+  animation: flicker .5s ease-in-out infinite alternate;
+  -webkit-animation: flicker .5s ease-in-out infinite alternate;
+  color: #171b20;
+  font-size: 3rem;
+  letter-spacing: .2em;
+  text-decoration: underline;
+  text-transform: uppercase;
+  transition: all .5s ease-in-out;
+  &:hover{
+    color: #cd890c;
+    cursor: pointer;
+  }
+
+
+  }
+}
